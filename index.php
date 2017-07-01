@@ -12,7 +12,7 @@ session_start();
             if(!empty($_POST["email"])){
                 $_SESSION["user_email"] = $_POST["email"];
             }
-            header("Location: https://byronic.gravicodev.id/");
+            header("Location: http://localhost/byronic/");
             die();
         }
     }
